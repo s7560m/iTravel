@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane id="pane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <center>
+      <Label alignment="CENTER" contentDisplay="CENTER" text="iTravel&#10;&#10;Copyright @ 2018 SE2203&#10;&#10;Hayden Hoffman,&#10;Logan Massecar" textAlignment="CENTER" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <Button fx:id="okButton" onMouseClicked="#exitAboutUs" alignment="CENTER" mnemonicParsing="false" text="OK" BorderPane.alignment="CENTER_RIGHT">
+         <opaqueInsets>
+            <Insets bottom="4.0" />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets bottom="20.0" right="20.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+</BorderPane>
